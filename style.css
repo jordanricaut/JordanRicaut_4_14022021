@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -771,6 +770,11 @@ h4 {
     background-color: #FFFFFF;
 }
 
+.bgc-black {
+  background-color: #000000;
+  padding: 10px;
+}
+
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
@@ -1044,4 +1048,16 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.margin-top--0 {
+  margin-top: 0;
+}
+.margin--0 {
+  margin: 0;
+}
+.arrondis {
+  border-radius: 20px;
+}
+.arrondis-haut {
+  border-radius: 20px 20px 0 0 ;
 }

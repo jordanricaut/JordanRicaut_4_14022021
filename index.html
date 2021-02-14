@@ -204,13 +204,54 @@
 <!-- bloc-5-cta -->
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
-		<div class="row">
-			<h2 class="mg-md text-center tc-white">
+		<div class="row bloc bgc-white arrondis margin--0">
+			<h2 class="mg-md text-center tc-white bgc-black margin-top--0 arrondis-haut">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
-			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
-			</div>
+  			<div class="col-sm-6">
+  				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+  					<div class="form-group">
+  						<label for="name">
+  							Nom
+  						</label>
+  						<input type="text" name="name" id="name" class="form-control" required />
+  					</div>
+  					<div class="form-group">
+  						<label for="email">
+  							Adresse email
+  						</label>
+  						<input type="email" name="email" id="email" class="form-control" type="email" required />
+  					</div>
+  					<div class="form-group">
+  						<label for="connu">
+  							Comment nous avez-vous connu ?
+  						</label>
+  						<input type="text" name="connu" class="form-control" type="email" required id="connu" />
+  					</div>
+  					<div class="form-group">
+  						<label for="brief">
+  							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+  						</label>
+              <textarea id="brief" name="brief" class="form-control" rows="4" cols="50" required></textarea>
+  					</div>
+  					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+  						Envoyer
+  					</button>
+  				</form>
+  			</div>
+        <div class="col-sm-6">
+  				<h3>
+  					contact@lachouetteagence.com
+  				</h3>
+          <h4>
+            Ouvert de 9h à 18h, du lundi au vendredi
+          </h4>
+          <h4>
+            2 place Sathonay
+            <br>69001 Lyon
+          </h4>
+  			</div>
+  		</div>
 		</div>
 	</div>
 </div>
