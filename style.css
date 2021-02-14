@@ -54,7 +54,9 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
+.bloc-xsm {
+  padding: 10px 50px;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -650,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1E1E1E!important;
 }
 
 .container {
@@ -789,7 +791,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
