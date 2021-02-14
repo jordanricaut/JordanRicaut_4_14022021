@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -699,8 +699,23 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
 .social {
+    max-width: 400px;
+    margin: auto auto auto auto;
+}
+.social--twitter {
+    max-width: 400px;
+    margin: auto auto auto auto;
+}
+.social--dribble {
+    max-width: 400px;
+    margin: auto auto auto auto;
+}
+.social--fb {
+    max-width: 400px;
+    margin: auto auto auto auto;
+}
+.social--insta {
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -838,8 +853,8 @@ h4 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+      padding-left: 0;
+      padding-right: 0;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -1062,4 +1077,10 @@ h4 {
 }
 .arrondis-haut {
   border-radius: 20px 20px 0 0 ;
+}
+figcaption {
+  color: black;
+}
+.hidden {
+  display: none;
 }
