@@ -335,7 +335,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #F3976C;
 }
 
 .navbar-toggle {
@@ -703,22 +703,6 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-.social--twitter {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
-.social--dribble {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
-.social--fb {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
-.social--insta {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
 
 h2 {
     font-size: 22px;
@@ -848,7 +832,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
